@@ -1,0 +1,25 @@
+{
+  "name": "taskmanagerapp",
+  "version": "1.0.0",
+  "description": "Task Manager Web Application Built Using JavaScript, Node.JS, Express.JS, MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Javascript",
+    "Node.js",
+    "Express.js",
+    "MongoDB"
+  ],
+  "author": "Nikhil Verma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
